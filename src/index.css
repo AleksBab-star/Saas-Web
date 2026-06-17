@@ -1,1 +1,51 @@
 @import "tailwindcss";
+
+/* Шрифты */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+
+@theme {
+    --font-recoleta: 'Playfair Display', serif;
+    --font-roboto: 'Roboto', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+}
+
+/* Сброс стилей */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Базовые стили body */
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0a1628;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+/* Контейнер — общие горизонтальные отступы сайта */
+.site-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 140px;
+    padding-right: 140px;
+    width: 100%;
+}
+
+@media (max-width: 1280px) {
+    .site-container {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .site-container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
