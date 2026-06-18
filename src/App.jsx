@@ -5,10 +5,9 @@ import Startup_upgrade from "./components/Startup_upgrade.tsx";
 import Potential_Customers from "./components/Potential_Customers.tsx";
 import Integretion from "./components/Integretion.tsx";
 import Clients from "./components/ Clients.tsx";
+import Blogs from './components/Blogs.tsx';
+import Video from './components/Video.tsx';
 import './index.css';
-
-
-
 
 
 function App() {
@@ -23,6 +22,8 @@ function App() {
           <Potential_Customers />
           <Integretion/>
           <Clients/>
+          <Blogs/>
+          <Video/>
       </>
     )
 }
