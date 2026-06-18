@@ -7,6 +7,7 @@ import Integretion from "./components/Integretion.tsx";
 import Clients from "./components/ Clients.tsx";
 import Blogs from './components/Blogs.tsx';
 import Video from './components/Video.tsx';
+import Footer from './components/Footer.tsx';
 import './index.css';
 
 
@@ -24,6 +25,7 @@ function App() {
           <Clients/>
           <Blogs/>
           <Video/>
+          <Footer/>
       </>
     )
 }
