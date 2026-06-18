@@ -3,7 +3,9 @@ import Hero from './components/Hero.jsx';
 import Our_Feats from './components/Our_Features.tsx';
 import Startup_upgrade from "./components/Startup_upgrade.tsx";
 import Potential_Customers from "./components/Potential_Customers.tsx";
+import Integretion from "./components/Integretion.tsx";
 import './index.css';
+
 
 
 
@@ -17,6 +19,7 @@ function App() {
           </div>
           <Startup_upgrade />
           <Potential_Customers />
+          <Integretion/>
       </>
     )
 }
