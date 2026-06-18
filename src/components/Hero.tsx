@@ -3,7 +3,7 @@ const Hero = () => {
         <section className="flex lg:flex-row flex-col lg:items-center lg:justify-between gap-8 py-10 lg:py-16">
 
             {/* Левая часть */}
-            <div className="flex flex-col gap-6 lg:gap-8 lg:max-w-[520px] w-full">
+            <div className="flex flex-col gap-6 lg:gap-8 lg:max-w-130 w-full">
 
                 {/* Заголовок + описание */}
                 <div className="flex flex-col gap-4 lg:gap-5">
