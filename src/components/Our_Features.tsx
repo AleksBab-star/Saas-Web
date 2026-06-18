@@ -52,7 +52,7 @@ const Our_Features = () => {
     };
 
     return (
-        <section className="py-20">
+        <section className="py-20 ">
             {/* Заголовок */}
             <div className="flex flex-col justify-center items-center gap-3 mb-14">
                 <p className="font-['Roboto'] font-semibold text-base text-[#57A464]">Our Features</p>
